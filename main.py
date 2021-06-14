@@ -60,6 +60,9 @@ def get_tweets(start_time):
     return tweet_df
 
 def main():
+    #The for loop is to simulate mulipale running. 
+    #The start time is the first date that the API can get - use if it's the first running.
+   
     start_time = None
     for i in range(0,4):
         if start_time == None:
