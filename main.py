@@ -17,6 +17,7 @@ def get_params(start_time):
     # If the first time of the script take the min date
 
     return {
+        "max_results": 100,
         "start_time": start_time,
         "tweet.fields": "created_at,public_metrics"
     }
